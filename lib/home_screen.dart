@@ -1,5 +1,5 @@
 import 'package:coffe_app/model_drink.dart';
-import 'package:coffe_app/widget.dart';
+import 'package:coffe_app/components/drink_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -34,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       // to controller if you want to scale or smale
                       scale:1-(offset*.2),
                       child: Drink(
+                        index: index,
                         title: ModelDrink.drinksData[index].title,
                         image: ModelDrink.drinksData[index].image,
                         name: ModelDrink.drinksData[index].name,
