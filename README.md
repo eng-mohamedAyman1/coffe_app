@@ -43,16 +43,7 @@ rename_app
 
 ---
 
-## 🧱 Project Structure
 
-```bash
-lib/
-├── core/
-├── features/
-├── widgets/
-├── screens/
-└── main.dart
-```
 
 ---
 
@@ -61,13 +52,13 @@ lib/
 Clone the project:
 
 ```bash
-git clone https://github.com/MahmoodTarek/Islami.git
+git clone https://github.com/eng-mohamedAyman1/coffe_app
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd Islami
+cd coffe_app
 ```
 
 Install dependencies:
